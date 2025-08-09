@@ -292,13 +292,13 @@ function App() {
             </blockquote>
             <div className="flex items-center justify-center space-x-4">
               <img
-                src="https://images.pexels.com/photos/3763188/pexels-photo-3763188.jpeg"
+                src="/assets/priya.jpg"
                 alt="Customer"
                 className="w-16 h-16 rounded-full object-cover"
               />
               <div className="text-left">
-                <p className="font-semibold text-gray-900">Priya Sharma</p>
-                <p className="text-gray-600">Food Connoisseur</p>
+                <p className="font-semibold text-gray-900">Arpitha Kumar</p>
+                <p className="text-gray-600">Food Enthusiast</p>
               </div>
             </div>
           </div>
@@ -307,7 +307,7 @@ function App() {
 
       {/* CTA Section */}
       <section className="py-24 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 relative overflow-hidden">
-        <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/4792373/pexels-photo-4792373.jpeg')] bg-cover bg-center opacity-10"></div>
+        <div className="absolute inset-0 bg-[url('/assets/background.jpeg')] bg-cover bg-center opacity-10"></div>
         <div className="relative z-10 max-w-4xl mx-auto text-center px-6 lg:px-8">
           <h2 className="text-5xl font-bold text-white mb-8">
             Experience Culinary Excellence
@@ -994,14 +994,14 @@ function App() {
 
   const Footer = () => (
     <footer className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 text-white relative overflow-hidden">
-      <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/4792373/pexels-photo-4792373.jpeg')] bg-cover bg-center opacity-5"></div>
+      <div className="absolute inset-0 bg-cover bg-center opacity-5"></div>
       <div className="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 py-20">
         <div className="flex flex-col lg:flex-row gap-12">
           {/* Left: Logo & Description */}
           <div className="lg:w-2/3">
             <div className="mb-6">
               <img
-                src="../public/assets/logo.png"
+                src="../public/assets/logo 1.png"
                 alt="TryPik Logo"
                 className="h-12 w-auto mb-4"
               />
