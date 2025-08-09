@@ -109,7 +109,7 @@ function App() {
       {/* Hero Section */}
       <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-amber-50 via-white to-emerald-50"></div>
-        <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/4792373/pexels-photo-4792373.jpeg')] bg-cover bg-center opacity-5"></div>
+        <div className="absolute inset-0 bg-[url('/assets/background.jpeg')] bg-cover bg-center opacity-5"></div>
 
         {/* Decorative elements */}
         <div className="absolute top-20 left-10 w-32 h-32 bg-gradient-to-br from-amber-200/30 to-amber-300/30 rounded-full blur-3xl"></div>
@@ -225,9 +225,9 @@ function App() {
               {
                 title: "Heritage Recipes",
                 description:
-                  "Time-honored formulations passed down through generations, preserving the authentic taste of traditional Indian pickles",
+                  "Time-honored formulations passed down through generations, preserving the taste of traditional Indian pickles.",
                 image:
-                  "https://images.pexels.com/photos/4226806/pexels-photo-4226806.jpeg",
+                  "/assets/1.jpeg",
                 gradient: "from-amber-500 to-orange-600",
               },
               {
@@ -235,7 +235,7 @@ function App() {
                 description:
                   "Handpicked ingredients from the finest farms across India, ensuring exceptional quality and unmatched flavor profiles",
                 image:
-                  "https://images.pexels.com/photos/4198015/pexels-photo-4198015.jpeg",
+                  "/assets/2.jpeg",
                 gradient: "from-emerald-500 to-teal-600",
               },
               {
@@ -243,7 +243,7 @@ function App() {
                 description:
                   "Meticulously crafted in small batches by master artisans who understand the nuances of perfect pickle making",
                 image:
-                  "https://images.pexels.com/photos/4226825/pexels-photo-4226825.jpeg",
+                  "/assets/3.jpeg",
                 gradient: "from-rose-500 to-pink-600",
               },
             ].map((feature, index) => (
@@ -757,8 +757,7 @@ function App() {
     const [submitted, setSubmitted] = useState(false);
     const [loading, setLoading] = useState(false);
 
-    // Replace with your deployed Google Apps Script Web App URL
-    const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbzWbJsCUWbHygZbX2B3gdG6JNYEdRCEuxJ-IbIPBqjABetJLjEu5BqtgpYidiph-Lzq/exec";
+    const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbx20dE-6ZPAiCI3FnV2gxnNofD1XuD8m-ApKpg2vTPjt0v0_VVM0NGonKuaXWmL5io0/exec";
 
     const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
       setForm({ ...form, [e.target.name]: e.target.value });
